@@ -9,5 +9,5 @@ html Structure
 <br> is single space
 &nbsp is no break space
 list has two typee
-1. unorder list
-2. order list
+1. unorder list <ul> </ul> tags use
+2. order list  <ol> </ol> tags use - i,I,a,A,1
