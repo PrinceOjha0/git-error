@@ -12,4 +12,5 @@ list has two typee
 1. unorder list <ul> </ul> tags use
 2. order list  <ol> </ol> tags use - i,I,a,A,1
 adding image <img src="">
-Anchor tags
+Anchor tags <a></a>
+link referce = <a href=" " target="_blank"></a>
