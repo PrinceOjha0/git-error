@@ -20,3 +20,5 @@ blocks and inline - block takes complete width
 example :-div is a blocks 
 inline take only required width
 example :- <img src=""> is inline
+more tags like bold, itlaics, strong , sub , <sup></sup>
+quoted
