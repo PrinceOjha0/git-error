@@ -16,3 +16,7 @@ Anchor tags <a></a>
 link referce = <a href=" " target="_blank"></a>
 Nav is used for group of contents in html
 there are so many types of groups like main ,content,header ,section 
+blocks and inline - block takes complete width
+example :-div is a blocks 
+inline take only required width
+example :- <img src=""> is inline
