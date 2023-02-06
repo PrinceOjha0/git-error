@@ -14,11 +14,13 @@ list has two typee
 adding image <img src="">
 Anchor tags <a></a>
 link referce = <a href=" " target="_blank"></a>
-Nav is used for group of contents in html
+semanti is smilar tags like header,nav, content
+nav is used for group of contents in html
 there are so many types of groups like main ,content,header ,section 
 blocks and inline - block takes complete width
 example :-div is a blocks 
 inline take only required width
 example :- <img src=""> is inline
+and also span
 more tags like bold, itlaics, strong , sub , <sup></sup>
 quoted
