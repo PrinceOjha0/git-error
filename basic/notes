@@ -28,4 +28,5 @@ quoted
 "th" is for table header
 "tr" is table Row
 "td" is for table data
-to put caption used "caption tags"
+to put caption used "caption" tags
+for merging two cell is <th colspan=""> </th>
