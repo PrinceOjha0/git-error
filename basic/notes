@@ -30,4 +30,8 @@ quoted
 "td" is for table data
 to put caption used "caption" tags
 for merging two cell is <th colspan=""> </th>
-input types  are text, password,submit,number,Time,email,range,required,disabled,type,name,id
+input types  are text, password,submit,number,Time,email,range,required,disabled,type,name,id,radio,selecte,value,disabled
+adding img in button
+<button type="button">
+    <img src="../../basic/static/logo_switchtocode.png"></button>
+ 
