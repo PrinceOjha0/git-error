@@ -24,3 +24,8 @@ example :- <img src=""> is inline
 and also span
 more tags like bold, itlaics, strong , sub , <sup></sup>
 quoted
+"table" tag is for creating table in html and
+"th" is for table header
+"tr" is table Row
+"td" is for table data
+to put caption used "caption tags"
