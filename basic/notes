@@ -48,11 +48,14 @@ type selector
 P{
     color:blue;
 }
+using "class" for targetted area
 class selector
 .color-red{
     color:red
 }
+
 id selector   
+use "id" for targetted area
 #para-id{
     color:red
 }
