@@ -1,0 +1,23 @@
+
+        p 
+        { 
+            color :rgb(10, 33, 109);
+            font-size: 25px;
+
+        }
+        h1{
+            color :crimson;
+            font-size: 40px;
+        }
+        h2{
+            color: rgb(19, 219, 36);
+            font-size: 35px;
+        }
+        h3{
+            color:cyan;
+            font-size: 30px;
+        }
+        h4{
+            color:darkgreen;
+            font-size: 30px;
+        }

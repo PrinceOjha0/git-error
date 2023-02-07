@@ -40,3 +40,5 @@ adding img in button
 </style>
 there are three type of CSS
 inline, internal,external
+adding external css file in html <link rel="stylesheet" type="text/css" href="../basic/css/style.css">
+    
