@@ -17,7 +17,20 @@
             color:cyan;
             font-size: 30px;
         }
-        h4{
+        /*h4{
             color:darkgreen;
             font-size: 30px;
+            text-transform:inherit;
+        }*/
+        .uppercase{
+            color: aqua;
+            text-transform:uppercase;
+
+        }
+        .cursive{
+            font-family: cursive;
+            font-size: 30px;
+        }
+        #blog-desc{
+            color: chartreuse;
         }

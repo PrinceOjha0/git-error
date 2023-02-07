@@ -41,4 +41,18 @@ adding img in button
 there are three type of CSS
 inline, internal,external
 adding external css file in html <link rel="stylesheet" type="text/css" href="../basic/css/style.css">
-    
+making class in css using ".class name"  
+class increase reusability 
+id is used for single and when use inline css as well as but it make as clumbss
+type selector
+P{
+    color:blue;
+}
+class selector
+.color-red{
+    color:red
+}
+id selector   
+#para-id{
+    color:red
+}
