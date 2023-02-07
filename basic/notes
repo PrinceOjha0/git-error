@@ -35,3 +35,8 @@ adding img in button
 <button type="button">
 <img src="../../basic/static/logo_switchtocode.png"></button>
  http method are get, post,etc
+ 
+ include css in html code  using <style type="text/css">
+</style>
+there are three type of CSS
+inline, internal,external
