@@ -42,4 +42,21 @@
             font-size: 35px;
             font-display:initial;
         }
+        #div1{
+            height: 200px;
+            width: 200px;
+            background-color: blue;
+            
+        }
+        #div2{
+        height: 150px;
+        width: 150px;
+        background-color: rgba(25,35,80,0.7);
+      
         
+        }
+        #div3{ align-self;
+            height: 80px;
+            width: 95px;
+            background-color: hsl(80, 96%, 18%);
+        }

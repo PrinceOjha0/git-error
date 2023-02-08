@@ -39,7 +39,9 @@ adding img in button
  include css in html code  using <style type="text/css">
 </style>
 there are three type of CSS
-inline, internal,external
+inline
+<P style="Color:Red"></P>,
+ internal,external
 adding external css file in html <link rel="stylesheet" type="text/css" href="../basic/css/style.css">
 making class in css using ".class name"  
 class increase reusability 
@@ -59,3 +61,12 @@ use "id" for targetted area
 #para-id{
     color:red
 }
+types of coloring in css
+Name
+hex
+rgb
+rgba
+hsl 
+hsla 
+
+1px = 1/9 inch
