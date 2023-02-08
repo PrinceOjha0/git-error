@@ -46,12 +46,16 @@
             height: 200px;
             width: 200px;
             background-color: blue;
-            
+            margin: auto;
+           
+     
         }
         #div2{
         height: 150px;
         width: 150px;
         background-color: rgba(25,35,80,0.7);
+        
+        
       
         
         }
@@ -59,6 +63,7 @@
             height: 80px;
             width: 95px;
             background-color: hsl(80, 96%, 18%);
+            margin: auto;
         }
         #text1{
             font-size: 35px;
