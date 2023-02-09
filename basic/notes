@@ -32,12 +32,15 @@ to put caption used "caption" tags
 for merging two cell is <th colspan=""> </th>
 input types  are text, password,submit,number,Time,email,range,required,disabled,type,name,id,radio,selecte,value,disabled
 adding img in button
+label for is used for marking  input from user 
+section id is used for making section in html page or we can call it as marker in html
 <button type="button">
 <img src="../../basic/static/logo_switchtocode.png"></button>
  http method are get, post,etc
  
  include css in html code  using <style type="text/css">
 </style>
+
 there are three type of CSS
 inline
 <P style="Color:Red"></P>,
@@ -70,3 +73,6 @@ hsl
 hsla 
 
 1px = 1/9 inch
+ css in text 
+ we can make span to block by using display properties  "block properties"
+ we can make div to inline by using display properties "in-line" properties
