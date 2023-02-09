@@ -1,0 +1,43 @@
+#outter-div{
+    border: 2px solid black;
+    margin:20px;
+   
+    display: inline-block;
+    }
+#inner-div1{
+     padding: 1px;
+    margin:1px;
+    background-color: darkred;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+#inner-div2{
+    padding: 1px;
+    margin-left:-5px;
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+
+.inner-div3{
+    background-color: cornflowerblue;
+    width: 200px;
+    height: 200px;
+    
+}
+
+#inner-div4{
+    position: absolute;
+    margin-left: 200px;
+    bottom: 200px;
+    background-color: darkred;
+    width:200px;
+    height:200px;
+    display: inline-block;
+    
+}
