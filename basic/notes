@@ -1,24 +1,27 @@
 html Structure
 <html>
+
 <head>
+
 <body>
 
 </body>
 </head>
+
 </html>
 <br> is single space
 &nbsp is no break space
 list has two typee
 1. unorder list <ul> </ul> tags use
-2. order list  <ol> </ol> tags use - i,I,a,A,1
+2. order list <ol> </ol> tags use - i,I,a,A,1
 adding image <img src="">
 Anchor tags <a></a>
 link referce = <a href=" " target="_blank"></a>
 semanti is smilar tags like header,nav, content
 nav is used for group of contents in html
-there are so many types of groups like main ,content,header ,section 
+there are so many types of groups like main ,content,header ,section
 blocks and inline - block takes complete width
-example :-div is a blocks 
+example :-div is a blocks
 inline take only required width
 example :- <img src=""> is inline
 and also span
@@ -30,49 +33,57 @@ quoted
 "td" is for table data
 to put caption used "caption" tags
 for merging two cell is <th colspan=""> </th>
-input types  are text, password,submit,number,Time,email,range,required,disabled,type,name,id,radio,selecte,value,disabled
+input types are text,
+password,submit,number,Time,email,range,required,disabled,type,name,id,radio,selecte,value,disabled
 adding img in button
-label for is used for marking  input from user 
+label for is used for marking input from user
 section id is used for making section in html page or we can call it as marker in html
 <button type="button">
-<img src="../../basic/static/logo_switchtocode.png"></button>
- http method are get, post,etc
- 
- include css in html code  using <style type="text/css">
+    <img src="../../basic/static/logo_switchtocode.png"></button>
+http method are get, post,etc
+
+include css in html code using <style type="text/css">
 </style>
 
 there are three type of CSS
 inline
 <P style="Color:Red"></P>,
- internal,external
-adding external css file in html <link rel="stylesheet" type="text/css" href="../basic/css/style.css">
-making class in css using ".class name"  
-class increase reusability 
+internal,external
+adding external css file in html
+<link rel="stylesheet" type="text/css" href="../basic/css/style.css">
+making class in css using ".class name"
+class increase reusability
 id is used for single and when use inline css as well as but it make as clumbss
 type selector
 P{
-    color:blue;
+color:blue;
 }
 using "class" for targetted area
 class selector
 .color-red{
-    color:red
+color:red
 }
 
-id selector   
+id selector
 use "id" for targetted area
 #para-id{
-    color:red
+color:red
 }
 types of coloring in css
 Name
 hex
 rgb
 rgba
-hsl 
-hsla 
+hsl
+hsla
 
 1px = 1/9 inch
- css in text 
- we can make span to block by using display properties  "block properties"
- we can make div to inline by using display properties "in-line" properties
+css in text
+we can make span to block by using display properties "block properties"
+we can make div to inline by using display properties "in-line" properties
+position properties
+static-normal used or we  can call as default
+relative-take space
+absolute-don't take space and contain with their closet parents
+fixed-fixed there position in their entire screen 
+sticky- fixed with their containers
