@@ -16,12 +16,28 @@ body{
 .horizontal-list{
     list-style: none;
     padding-left: 0px;
+    
+}
+.horizontal-list li a:hover{
+    list-style: none;
+    border: 1px solid crimson;
+    background-color: black;
+    color:rgb(230, 37, 37);
+    animation-duration: +8000ms;
+    transition: color -800ms border-buttom 4s;
+    
+    
 }
 /*using nested css properties*/
 .horizontal-list li{
     display: inline-block;
+    margin: 8px;
 }
-li a{
+ .horizontal-list li a{
     color:white;
-    
+    text-decoration: none;
+
+}
+.text-center{
+    text-align: center;
 }
