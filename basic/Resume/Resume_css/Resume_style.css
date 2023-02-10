@@ -1,0 +1,27 @@
+
+body{
+    margin:0px;
+    background-color: rgb(10, 139, 139);
+}
+#body-header{
+ background-image: url(../image/header-background.jpg);
+ height: 65vh;
+ opacity: 1;
+ background-size:cover;
+ background-position:center;
+ background-attachment: fixed;
+ 
+}
+
+.horizontal-list{
+    list-style: none;
+    padding-left: 0px;
+}
+/*using nested css properties*/
+.horizontal-list li{
+    display: inline-block;
+}
+li a{
+    color:white;
+    
+}
