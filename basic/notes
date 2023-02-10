@@ -87,3 +87,11 @@ relative-take space
 absolute-don't take space and contain with their closet parents
 fixed-fixed there position in their entire screen 
 sticky- fixed with their containers
+
+for flexible display use % value it automatical calculate according to screen
+type of <overflow->
+    auto-it brower decisied what to do 
+    visible-let show the overflow section 
+    scroll-it provide you scroll option in overflow seen 
+    hidden-it will hide overflow section
+</overflow->
