@@ -1,7 +1,7 @@
 
 body{
     margin:0px;
-    background-color: rgb(10, 139, 139);
+    background-color: rgb(48, 138, 150);
 }
 #body-header{
  background-image: url(../image/header-background.jpg);
@@ -58,10 +58,12 @@ body{
     font-weight: 700;
     margin-bottom: 0.5rem;
     display: inline-block;
+    border-radius: 1rem;
     box-shadow: 0px 0px 6px 4px rgb(29, 224, 224);
 }
 
 #My-name:hover{
+    border-radius: 1rem;
     background: black;
     border-radius: 0.5;
     color:rgb(207, 14, 14);
@@ -82,4 +84,52 @@ body{
 }
 #icon:hover{
     box-shadow: 0px 0px 6px 4px whitesmoke;
+}
+#About{
+    height: auto;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+#My-image{
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -10vh;
+    
+}
+#My-image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid rgb(240, 231, 233);
+    box-shadow: 0px 0px 6px 4px whitesmoke;
+    transition: 0ms;
+ 
+}
+#My-image img:hover{
+    border: 2px solid rgba(37, 7, 7, 0.123);
+    background-color: rgb(33, 141, 109);
+    box-shadow: 0px 0px 6px 4px rgb(1, 12, 8);
+}
+P{
+    
+    text-align: justify;
+    text-align: center;
+    width: auto;
+    margin-left: 15rem;
+    text-transform: inherit;
+    color: rgb(22, 2, 2);
+    box-shadow: rgb(25, 0, 255);
+    position: static;
+    height:14vh;
+    text-overflow: hidden;
+    font-style: oblique;
+    word-spacing: 2px;
+    display: inline-block;
+}
+P:hover{
+    box-shadow: 0px 0px 6px 4px whitesmoke;
+    border: 2px solid rgb(31, 144, 197);
+    border-radius: 2rem;
 }
