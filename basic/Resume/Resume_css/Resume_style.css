@@ -112,24 +112,21 @@ body{
     background-color: rgb(33, 141, 109);
     box-shadow: 0px 0px 6px 4px rgb(1, 12, 8);
 }
-P{
-    
-    text-align: justify;
-    text-align: center;
+P{ 
     width: auto;
-    margin-left: 15rem;
     text-transform: inherit;
     color: rgb(22, 2, 2);
     box-shadow: rgb(25, 0, 255);
-    position: static;
-    height:14vh;
-    text-overflow: hidden;
     font-style: oblique;
-    word-spacing: 2px;
-    display: inline-block;
+    word-spacing: 2px; 
+    padding: 0.7rem;
 }
 P:hover{
-    box-shadow: 0px 0px 6px 4px whitesmoke;
-    border: 2px solid rgb(31, 144, 197);
-    border-radius: 2rem;
+    border-radius: 5rem;
+    display:inline-block;
+    border: 2px solid rgba(37, 7, 7, 0.123);
+    background-color: rgb(33, 141, 109);
+    box-shadow: 0px 0px 6px 4px rgb(1, 12, 8);
+    
+    
 }
