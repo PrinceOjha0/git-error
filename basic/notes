@@ -98,3 +98,17 @@ type of <overflow->
 ______________RESUME_PROJECT________________
 for giving hover radius: use border-radius: 50%;
 for giving shadow used box-shadow: 0px 0px 6px 4px whitesmoke;
+
+
+
+____________FLEX_________________
+#container is used as paper to drawing our design
+after that we used #container div for assign size and properties of all div contained in container div
+we can give order for arranging div
+flex wrap: is used automatical take size in container
+justify-content:is used for arranging element
+: flex-start:
+: flex-end:
+:flex-between:
+:center 
+:space-between:
