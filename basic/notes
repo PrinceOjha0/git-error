@@ -98,7 +98,7 @@ type of <overflow->
 ______________RESUME_PROJECT________________
 for giving hover radius: use border-radius: 50%;
 for giving shadow used box-shadow: 0px 0px 6px 4px whitesmoke;
-
+background-size: cover; to cover whole image
 
 
 ____________FLEX_________________

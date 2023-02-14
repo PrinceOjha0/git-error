@@ -1,43 +1,23 @@
 #outter-div{
     border: 2px solid black;
     margin:20px;
-   
-    display: inline-block;
+    overflow: auto;
+    height: 200px;
+    width: auto;
+    position: relative;
     }
 #inner-div1{
-   
     background-color: darkred;
-    width: 50%;
+    width: 200px;
     height: 200px;
-    display: inline-block;
     box-sizing: border-box;
-    overflow: auto;
+    
 }
+
 #inner-div2{
-    padding: 1px;
-    margin-left:-5px;
-    background-color: blue;
+    background-color: red;
     width: 200px;
     height: 200px;
-    display: inline-block;
     box-sizing: border-box;
-}
-
-
-.inner-div3{
-    background-color: cornflowerblue;
-    width: 200px;
-    height: 200px;
-    
-}
-
-#inner-div4{
-    position: absolute;
-    margin-left: 200px;
-    bottom: 200px;
-    background-color: darkred;
-    width:200px;
-    height:200px;
-    display: inline-block;
-    
+    position: sticky;
 }
