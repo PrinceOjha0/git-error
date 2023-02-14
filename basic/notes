@@ -112,3 +112,6 @@ justify-content:is used for arranging element
 :flex-between:
 :center 
 :space-between:
+
+//
+<overflow-warp> to break word accoding boarder  size</overflow-warp>
