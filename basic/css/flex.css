@@ -32,3 +32,77 @@ background-color: brown;
 #div5{
     background-color: rgb(54, 196, 49);
     }
+    #container-1{
+        width: 400px;
+        height: 400px; 
+        border-radius: 5%;
+        border: 2px solid black;
+        margin: 40px;
+        background:radial-gradient( red,cyan,black,violet,blue,indigo,green,yellow,orange);
+    }
+    #container-1:hover{
+        width: 400px;
+        border-radius: 5%;
+        box-shadow: 0px 0px 10px 10px black;
+        height: 400px;
+        border: 2px solid black;
+        margin: 40px;
+        background:radial-gradient( red,cyan,black,violet,blue,indigo,green,yellow,orange);
+    }
+    #lightbox{
+        height: 0;
+        width: 0;
+        position: fixed;
+        top:0;
+        overflow: hidden;
+        left: 0;
+        transition: all 0.9ms ease-in-out;
+        
+    }
+    #lightbox:target{
+        height: 80%;
+        width: 72%;
+        top:10%;
+        left: 10%;
+        background-color: aqua;
+    }
+    P::first-letter{
+        font-size: 2rem;
+        font-weight: bold;
+        text-transform: uppercase; 
+
+    }
+    P::after{
+       content: 'after';
+       background-color: aqua; 
+       font-weight: 700;
+       font-size: 2rem;
+
+    }
+    P::before{
+        
+        font-weight: 700;
+        content: 'before';
+        background-color: aqua; 
+     }
+     ul{
+        display: inline-block;
+        margin: 0px 8px 8px 0px;
+        font-weight: 100;
+
+     }
+     
+     ul li::before{
+        content: '';
+        height: 40px;
+        width: 40px;
+        background-image: url(../static/coding_ninjas.png);
+        display: inline-block;
+        margin: 0px 8px 8px 0px;
+        font-weight: 100;
+     }
+     ul li{
+        display: inline-block;
+        margin: 0px 8px 8px 0px;
+        font-weight: 100;
+     }
