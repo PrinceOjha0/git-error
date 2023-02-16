@@ -257,7 +257,7 @@ width:75%;
    
 }
 .timeline-box{
-    overflow: hidden;
+    background-color: darksalmon;
     position: relative;
     margin: 5px;
     width: 40%;
@@ -266,12 +266,59 @@ width:75%;
     border: 2px solid black;
 }
 
+.timeline-divider{
+    position: absolute;
+    height: 75%;
+    width: 0;
+    border: 3px dashed rgb(116, 181, 197);
+    top:10%;
+    right: 0%;
+    left: 50%;
+}
+.timeline-traveller{
+    position: sticky;
+    top:35%;
+    transform: rotate(90deg); 
+}
+.timeline-box:nth-child(2n){
+    left:53%;
+}
+.timeline-box::after{
+    content: '';
+   background-color: black;
+   top: 30%; 
+   border-radius: 50%;
+   width: 0.5rem;
+   height: 0.5rem;
+   right: -12.5%;
+   position:absolute;
+   z-index: 1;
+}
+
+
+.timeline-box:nth-child(2n)::after{
+    content: '';
+   background-color: black;
+   top: 30%; 
+   border-radius: 50%;
+   width: 0.4rem;
+   height: 0.5rem;
+   left: -9%;
+   position:absolute;
+   z-index: 1;
+}
+.timeline-box>p{
+  
+    font-weight: 700;
+    font-size: Small;
+    color: rgb(79, 255, 196);
+}
 .tech-learn-container>h1{
     font-weight: 700;
     font-size: 1.55rem;
     color: rgb(66, 127, 218);
     
-}
+ }
 .tech-learn-container{
     display: flex;
     align-items: center;
@@ -282,6 +329,7 @@ width:75%;
     font-size: medium;
     color: rgb(236, 182, 81);
 }
+
 .techlearn::before{
     background-repeat: no-repeat;
     content: '';
@@ -290,12 +338,8 @@ width:75%;
     background-image:url(image/tech\ learner.jpg);
     height: 30px;
     width: 40px;
-    left: 15%;
-    top: auto;
-    border-radius: 50%;
-    position: absolute;
+   
 }
-
 .freelancer::after{
     content: '';
     background-size: contain;
@@ -305,10 +349,6 @@ width:75%;
     background-repeat: no-repeat;
     align-items: center;
     width: 80px;
-    top: auto;
-    border-radius: 50%;
-    position: absolute;
-
 }
 
 .credex::before{
@@ -320,19 +360,51 @@ width:75%;
     width: 40px;
     background-repeat: no-repeat;
     align-items: center;
-    top: auto;
-    left: 15%;
-    border-radius: 40%;
-    position: absolute;
-    top: 10%;
+} 
+.timeline-box>h3{
+    font-size: 1rem;
 }
-.timeline-box>p{
-  
-    font-weight: 700;
-    font-size: Small;
-    color: rgb(2, 44, 30);
+.timeline-traveller-1{
+    position: sticky;
+    top:35%;
+ 
 }
-.timeline-box:nth-child(2n){
-    left:53%;
 
+.manav::after{
+    content: '';
+    background-size: contain;
+    display: inline-block;
+    background-image:url(image/manav.jpg);
+    height: 40px;
+    background-repeat: no-repeat;
+    align-items: center;
+    width: 80px;
+}
+
+.heera::after{
+    content: '';
+    background-size: contain;
+    display: inline-block;
+    background-image:url(image/heera.jpg);
+    height: 40px;
+    background-repeat: no-repeat;
+    align-items: center;
+    width: 80px;
+}
+
+.victoria::after{
+    content: '';
+    background-size: contain;
+    display: inline-block;
+    background-image:url(image/victoria.jpg);
+    height: 40px;
+    background-repeat: no-repeat;
+    align-items: center;
+    width: 80px;
+}
+.tech-learn-container-1>h1{
+    font-weight: 700;
+    font-size: 1rem;
+    color: rgb(66, 127, 218);
+    
 }
