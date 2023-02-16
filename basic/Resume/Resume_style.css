@@ -447,6 +447,31 @@ width:75%;
 }
 
 
+#contact-form button[type="submit"] {
+    background: transparent;
+    /*#1a1a1a;*/
+    font-size: 0.95rem;
+    border: 2px solid white;
+    margin-top: 5%;
+    margin-left: 35%;
+    border-radius: 2px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.046875em;
+    line-height: 1;
+    padding: 0.8em 0.8em 0.78em;
+    text-transform: uppercase;
+}
+
+#contact-form button:hover {
+    background: white;
+    color: #13386fe0;
+}
+
+
+
+
 .portfolio-image-container:hover {
     box-shadow: 0 0 20px #74ADC8;
 }
@@ -456,3 +481,28 @@ width:75%;
     /* display: block; */
     color: white;
 }
+#contact {
+
+
+
+    background-color: #0abcf9;
+    background-image: linear-gradient(50deg, #2857a4 0%, #403066 74%);
+    /*background-image: linear-gradient(50deg,#2857a4 0%, #5378b1 74%);*/
+    /*background-image: linear-gradient(170deg,#2857a4 0%, #8496b2 74%);*/
+    /*background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);*/
+    /*background-image: linear-gradient(to right,#13226fe0, #5473a2e0, #434ba8e0);*/
+    /*background-color: #13386fe0;*/
+    color: white;
+    padding-bottom: 40px;
+}
+
+#contact h1,
+#contact h1 span {
+    color: white;
+}
+
+#contact-form {
+    margin-left: 20%;
+}
+
+
