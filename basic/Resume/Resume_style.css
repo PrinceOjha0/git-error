@@ -227,7 +227,7 @@ section:nth-child(2n + 1) {
     background-color: red;
 }
 .mb-yellow{
-    background-color: yellow;
+    background-color: rgb(17, 202, 17);
 }
 .mb-violet{
     background-color: violet;
@@ -249,4 +249,90 @@ width:75%;
     align-items: center;
     height: inherit;
     
+}
+.timeline{
+    position: relative;
+    width: 75%;
+    border: 2px solid black;
+   
+}
+.timeline-box{
+    overflow: hidden;
+    position: relative;
+    margin: 5px;
+    width: 40%;
+    left: 5%;
+    min-height: 150px;
+    border: 2px solid black;
+}
+
+.tech-learn-container>h1{
+    font-weight: 700;
+    font-size: 1.55rem;
+    color: rgb(66, 127, 218);
+    
+}
+.tech-learn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.timeline-box>h2{
+    font-weight: 700;
+    font-size: medium;
+    color: rgb(236, 182, 81);
+}
+.techlearn::before{
+    background-repeat: no-repeat;
+    content: '';
+    background-size: contain;
+    display: inline-block;
+    background-image:url(image/tech\ learner.jpg);
+    height: 30px;
+    width: 40px;
+    left: 15%;
+    top: auto;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.freelancer::after{
+    content: '';
+    background-size: contain;
+    display: inline-block;
+    background-image:url(image/freelancer\ logo.jpg);
+    height: 40px;
+    background-repeat: no-repeat;
+    align-items: center;
+    width: 80px;
+    top: auto;
+    border-radius: 50%;
+    position: absolute;
+
+}
+
+.credex::before{
+    content: '';
+    background-size: contain;
+    display: inline-block;
+    background-image:url(image/credex\ logo.jpg);
+    height: 50px;
+    width: 40px;
+    background-repeat: no-repeat;
+    align-items: center;
+    top: auto;
+    left: 15%;
+    border-radius: 40%;
+    position: absolute;
+    top: 10%;
+}
+.timeline-box>p{
+  
+    font-weight: 700;
+    font-size: Small;
+    color: rgb(2, 44, 30);
+}
+.timeline-box:nth-child(2n){
+    left:53%;
+
 }
